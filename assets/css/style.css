@@ -1,0 +1,9 @@
+h1 {
+	font-size: 60px;
+	font-family: blackMetal;
+}
+
+@font-face {
+    font-family: blackMetal;
+    src: url(../fonts/black-metal.ttf);
+}
