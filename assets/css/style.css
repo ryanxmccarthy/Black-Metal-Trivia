@@ -21,12 +21,16 @@ ul {
 	list-style: upper-alpha;
 } 
 
+.btn {
+	color: black;
+}
+
 label { 
 	margin-left: 0.5em; 
 	cursor: pointer; 
 }
 
-#start-logo h1{
+.large-logo h1{
 	font-size: 120px;
 	font-family: blackMetal;
 	color: grey;
