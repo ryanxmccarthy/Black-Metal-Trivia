@@ -28,10 +28,10 @@
 			
 		<p class="question">1. Who created the name of the genre?</p>        
 		<ul class="answers">            
-			<input type="radio" name="q1" value="Bathory"><label for="q1a">Bathory</label><br>          
-			<input type="radio" name="q1" value="Mercyful Fate"><label for="q1b">Mercyful Fate</label><br>            
-			<input type="radio" name="q1" value="Venom"><label for="q1c">Venom</label><br>            
-			<input type="radio" name="q1" value="Celtic Frost"><label for="q1d">Celtic Frost</label><br>       
+			<input type="radio" name="q1" value="Bathory"><label>Bathory</label><br>          
+			<input type="radio" name="q1" value="Mercyful Fate"><label>Mercyful Fate</label><br>            
+			<input type="radio" name="q1" value="Venom"><label>Venom</label><br>            
+			<input type="radio" name="q1" value="Celtic Frost"><label>Celtic Frost</label><br>       
 		</ul> 
 
 		<p class="question">2. Who was never a member of Mayhem?</p>        
@@ -106,9 +106,21 @@
 			<input type="radio" name="q10" value="Epona"><label for="q10d">Epona</label><br/>        
 		</ul>        
 
-		<br/>          
+		<br>          
 		
-		<button type="button" class="btn" id="finish-button">Finish</button>                           
+		<button type="button" class="btn" id="finish-button">Finish</button> 
+
+		<div class='hidden'>
+			<h3>Questions Correct: <span id="correct"></span></h3>
+		</div>
+
+		<div class='hidden'>
+			<h3>Questions Incorrect: <span id="incorrect"></span></h3>
+		</div>   
+
+		<div class='hidden'>
+			<button type="button" class="btn" id="restart-button">Restart</button> 
+		</div>                       
 	</div>
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

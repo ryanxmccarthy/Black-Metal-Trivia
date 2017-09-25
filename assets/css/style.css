@@ -36,6 +36,10 @@ label {
 	color: grey;
 }
 
+#finish-button {
+	margin-bottom: 15px;
+}
+
 #categorylist { 
 	margin-top: 6px; 
 	display: none; 
