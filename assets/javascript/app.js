@@ -27,7 +27,7 @@ function stop() {
   clearInterval(intervalId);
 }
 
-// run();
+run();
 
 //this handles the finish button
 $('#finish-button').on('click', function() {
@@ -49,7 +49,6 @@ $("input").on("click", function(event){
       correct++;
       document.getElementById('correct').innerHTML = correct;
       document.getElementById('incorrect').innerHTML = 10 - correct;
-      console.log(correct);
     }
   }
 });
