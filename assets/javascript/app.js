@@ -27,7 +27,7 @@ function stop() {
   clearInterval(intervalId);
 }
 
-// run();
+run();
 
 //this handles the finish button
 $('#finish-button').on('click', function() {
