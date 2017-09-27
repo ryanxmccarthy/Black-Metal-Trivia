@@ -37,7 +37,7 @@ $('#finish-button').on('click', function() {
 
 //this handles the restart button
 $('#restart-button').on('click', function() {
-	location.href = 'file:///Users/ryanxmccarthy/Documents/unc-bootcamp/homework/trivia-game/questions.html';
+  window.location.reload()
 })
 
 //this handles the number of questions (in)correct
@@ -53,5 +53,3 @@ $("input").on("click", function(event){
     }
   }
 });
-
-
