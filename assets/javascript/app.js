@@ -1,5 +1,3 @@
-var correctAnswers = ['Venom', 'Gaahl', 'Abigail Williams', 'Under the Sign of the Pentagram', 'Fenriz', 'Marduk', 'Inn i de dype skogers favn', 'Leukemia', 'Krieg', 'Satanael'];
-
 //this handles the start button
 $('#start-button').on('click', function() {
 	location.href = 'file:///Users/ryanxmccarthy/Documents/unc-bootcamp/homework/trivia-game/questions.html';
@@ -41,6 +39,7 @@ $('#restart-button').on('click', function() {
 })
 
 //this handles the number of questions (in)correct
+var correctAnswers = ['Venom', 'Gaahl', 'Abigail Williams', 'Under the Sign of the Pentagram', 'Fenriz', 'Marduk', 'Inn i de dype skogers favn', 'Leukemia', 'Krieg', 'Satanael'];
 var correct = 0;
 
 $("input").on("click", function(event){
