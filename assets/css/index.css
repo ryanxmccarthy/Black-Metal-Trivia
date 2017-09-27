@@ -1,0 +1,12 @@
+
+
+.large-logo h1 {
+	font-size: 120px;
+	font-family: blackMetal;
+	color: #D3D3D3;
+}
+
+@font-face {
+    font-family: blackMetal;
+    src: url(../fonts/black-metal.ttf);
+}

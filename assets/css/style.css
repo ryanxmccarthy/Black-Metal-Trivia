@@ -1,6 +1,7 @@
 body {
-	background-image: url("../images/winter-trees.jpg");
-	color: grey;
+	height: 100%;
+    margin: 0;
+    color: #D3D3D3;
 }
 
 h1 {
@@ -9,13 +10,34 @@ h1 {
 	margin-top: 0;
 }
 
-@font-face {
-    font-family: blackMetal;
-    src: url(../fonts/black-metal.ttf);
-}
-
 ul {
 	padding-left: 0px;
+}
+
+.bg {
+	background-image: url("../images/black.jpg");
+    height: 670px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.button {
+  font: bold 25px Arial;
+  text-decoration: none;
+  color: #D3D3D3;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.large-logo h1 {
+	font-size: 120px;
+	font-family: blackMetal;
+	color: #D3D3D3;
 }
 
 .text {
@@ -28,27 +50,10 @@ ul {
 	color: black;
 }
 
-.button {
-  font: bold 11px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333333;
-  padding: 2px 6px 2px 6px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
 
 label { 
 	margin-left: 0.5em; 
 	cursor: pointer; 
-}
-
-.large-logo h1{
-	font-size: 120px;
-	font-family: blackMetal;
-	color: grey;
 }
 
 #finish-button {
@@ -71,4 +76,9 @@ label {
 #closing {
 	display: none;
 	font-style: italic;
+}
+
+@font-face {
+    font-family: blackMetal;
+    src: url(../fonts/black-metal.ttf);
 }
