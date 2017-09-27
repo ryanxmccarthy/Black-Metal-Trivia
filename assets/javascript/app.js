@@ -6,7 +6,7 @@ $('#start-button').on('click', function() {
 })
 
 //this handles the timer
-var number = 70;
+var number = 100;
 var intervalId;
 
 function decrement() {
