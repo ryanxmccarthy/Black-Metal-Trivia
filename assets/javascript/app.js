@@ -27,11 +27,12 @@ function stop() {
   clearInterval(intervalId);
 }
 
-run();
+// run();
 
 //this handles the finish button
 $('#finish-button').on('click', function() {
   $('.hidden').removeClass('hidden');
+  $('#finish-button').addClass('hidden');
 })
 
 //this handles the restart button

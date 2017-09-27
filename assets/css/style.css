@@ -1,11 +1,12 @@
 body {
-	background-color: black;
+	background-image: url("../images/winter-trees.jpg");
 	color: grey;
 }
 
 h1 {
 	font-size: 70px;
 	font-family: blackMetal;
+	margin-top: 0;
 }
 
 @font-face {
@@ -17,9 +18,11 @@ ul {
 	padding-left: 0px;
 }
 
-.answers li { 
-	list-style: upper-alpha;
-} 
+.text {
+	background-color: black;
+	width: 40%;
+	margin: 0 auto;
+}
 
 .btn {
 	color: black;
@@ -49,6 +52,10 @@ label {
 }
 
 #finish-button {
+	margin-bottom: 15px;
+}
+
+#restart-button {
 	margin-bottom: 15px;
 }
 
