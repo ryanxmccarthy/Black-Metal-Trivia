@@ -10,8 +10,22 @@ h1 {
 	margin-top: 0;
 }
 
+h4 {
+	font-family: canterbury;
+  	letter-spacing: 2px;
+}
+
+p {
+	font-family: canterbury;
+	font-size: 25px;
+  	letter-spacing: 2px;
+}
+
 ul {
+	font-family: canterbury;
+	font-size: 20px;
 	padding-left: 0px;
+	letter-spacing: 2px;
 }
 
 .bg {
@@ -24,10 +38,10 @@ ul {
 }
 
 .button {
-  font: bold 25px Arial;
-  text-decoration: none;
+  font-family: canterbury;
+  letter-spacing: 2px;
+  font-size: 40px;
   color: #D3D3D3;
-  padding: 2px 6px 2px 6px;
 }
 
 .large-logo h1 {
@@ -43,13 +57,13 @@ ul {
 }
 
 .btn {
+	font-family: canterbury;
+  	letter-spacing: 2px;
 	color: black;
 }
 
-
 label { 
 	margin-left: 0.5em; 
-	cursor: pointer; 
 }
 
 #finish-button {
@@ -60,21 +74,13 @@ label {
 	margin-bottom: 15px;
 }
 
-#categorylist { 
-	margin-top: 6px; 
-	display: none; 
-} 
-
-#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 { 
-	display: none; 
-}
-
-#closing {
-	display: none;
-	font-style: italic;
-}
-
 @font-face {
     font-family: blackMetal;
     src: url(../fonts/black-metal.ttf);
+}
+
+@font-face {
+    font-family: canterbury;
+    src: url(../fonts/canterbury.ttf);
+    letter-spacing: 2px;
 }
