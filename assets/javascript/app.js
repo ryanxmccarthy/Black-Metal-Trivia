@@ -36,6 +36,7 @@ $('#finish-button').on('click', function() {
 //this handles the restart button
 $('#restart-button').on('click', function() {
   window.location.reload()
+  document.body.scrollTop = 0;
 })
 
 //this handles the number of questions (in)correct
