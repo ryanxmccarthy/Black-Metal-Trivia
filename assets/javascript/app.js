@@ -1,6 +1,6 @@
 //this handles the start button
 $('#start-button').on('click', function() {
-	location.href = 'file:///Users/ryanxmccarthy/Documents/unc-bootcamp/homework/trivia-game/questions.html';
+  location.href = 'file:///Users/ryanxmccarthy/Documents/unc-bootcamp/homework/trivia-game/questions.html';
 })
 
 //this handles the timer
